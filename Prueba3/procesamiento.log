@@ -1,0 +1,154 @@
+2024-09-03 23:37:26,217 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:37:26,218 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:37:26,219 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:37:26,219 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:37:26,220 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:37:26,220 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:37:26,220 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:37:26,221 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:39:17,187 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:39:17,188 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:39:17,188 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:39:17,189 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:39:17,189 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:39:17,189 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:39:17,189 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:39:17,189 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:44:22,670 - INFO - Inicio de la ejecución de la función main()
+2024-09-03 23:44:22,675 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:44:22,676 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:44:22,676 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:44:22,676 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:44:22,677 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:44:22,677 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:44:22,677 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:44:22,677 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:44:22,678 - INFO - Fin de la ejecución de la función main()
+2024-09-03 23:51:05,296 - INFO - Inicio de la ejecución de la función main()
+2024-09-03 23:51:05,300 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:51:05,300 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:51:05,300 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:51:05,301 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:51:05,301 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:51:05,302 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:51:05,302 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:51:05,302 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:51:05,303 - INFO - Fin de la ejecución de la función main()
+2024-09-03 23:52:45,489 - INFO - Inicio de la ejecución de la función main()
+2024-09-03 23:52:45,493 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:52:45,493 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:52:45,493 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:52:45,493 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:52:45,493 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:52:45,493 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:52:45,493 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:52:45,494 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:52:45,495 - INFO - Fin de la ejecución de la función main()
+2024-09-03 23:54:33,818 - INFO - Inicio de la ejecución de la función main()
+2024-09-03 23:54:33,822 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:54:33,822 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:54:33,822 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:54:33,822 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:54:33,824 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:54:33,824 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:54:33,824 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:54:33,824 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:54:33,825 - INFO - Fin de la ejecución de la función main()
+2024-09-03 23:56:41,135 - INFO - Inicio de la ejecución de la función main()
+2024-09-03 23:56:41,140 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-03 23:56:41,141 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-03 23:56:41,141 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-03 23:56:41,141 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-03 23:56:41,141 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-03 23:56:41,141 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-03 23:56:41,142 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-03 23:56:41,142 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-03 23:56:41,143 - INFO - Fin de la ejecución de la función main()
+2024-09-04 20:28:57,934 - INFO - Procesando elemento ID: 1 del dispositivo CT SCAN
+2024-09-04 20:28:57,935 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-04 20:28:57,936 - INFO - Promedio antes de la normalización para ID 1: 51.13
+2024-09-04 20:28:57,937 - INFO - Promedio antes de la normalización para ID 2: 52.70
+2024-09-04 20:28:57,937 - INFO - Promedio después de la normalización para ID 1: 0.53
+2024-09-04 20:28:57,938 - INFO - Promedio después de la normalización para ID 2: 0.55
+2024-09-04 20:28:57,938 - INFO - Tamaño de los datos para ID 1: 30
+2024-09-04 20:28:57,938 - INFO - Tamaño de los datos para ID 2: 30
+2024-09-04 20:30:28,304 - INFO - Procesando elemento ID: 1 del dispositivo RX 1
+2024-09-04 20:30:28,304 - INFO - Procesando elemento ID: 2 del dispositivo CT SCAN
+2024-09-04 20:30:28,304 - INFO - Procesando elemento ID: 3 del dispositivo CT SCAN
+2024-09-04 20:30:28,305 - INFO - Procesando elemento ID: 4 del dispositivo MRI
+2024-09-04 20:30:28,414 - INFO - Promedio antes de la normalización para ID 1: 50.01
+2024-09-04 20:30:28,435 - INFO - Promedio antes de la normalización para ID 2: 49.93
+2024-09-04 20:30:28,536 - INFO - Promedio antes de la normalización para ID 3: 50.16
+2024-09-04 20:30:28,563 - INFO - Promedio antes de la normalización para ID 4: 50.03
+2024-09-04 20:30:28,604 - INFO - Promedio después de la normalización para ID 1: 0.50
+2024-09-04 20:30:28,627 - INFO - Promedio después de la normalización para ID 2: 0.50
+2024-09-04 20:30:28,675 - INFO - Promedio después de la normalización para ID 3: 0.50
+2024-09-04 20:30:28,693 - INFO - Promedio después de la normalización para ID 4: 0.50
+2024-09-04 20:30:28,693 - INFO - Tamaño de los datos para ID 1: 250000
+2024-09-04 20:30:28,694 - INFO - Tamaño de los datos para ID 2: 250000
+2024-09-04 20:30:28,694 - INFO - Tamaño de los datos para ID 3: 250000
+2024-09-04 20:30:28,694 - INFO - Tamaño de los datos para ID 4: 250000
+2024-09-04 20:30:28,700 - INFO - Procesando elemento ID: 5 del dispositivo CT SCAN
+2024-09-04 20:30:28,707 - INFO - Procesando elemento ID: 6 del dispositivo RX 1
+2024-09-04 20:30:28,712 - INFO - Procesando elemento ID: 7 del dispositivo RX 1
+2024-09-04 20:30:28,716 - INFO - Procesando elemento ID: 8 del dispositivo RX 1
+2024-09-04 20:30:28,822 - INFO - Promedio antes de la normalización para ID 5: 49.95
+2024-09-04 20:30:28,875 - INFO - Promedio antes de la normalización para ID 7: 50.06
+2024-09-04 20:30:28,898 - INFO - Promedio antes de la normalización para ID 6: 50.06
+2024-09-04 20:30:28,949 - INFO - Promedio después de la normalización para ID 5: 0.50
+2024-09-04 20:30:28,966 - INFO - Promedio antes de la normalización para ID 8: 50.05
+2024-09-04 20:30:28,995 - INFO - Promedio después de la normalización para ID 7: 0.50
+2024-09-04 20:30:29,027 - INFO - Promedio después de la normalización para ID 6: 0.50
+2024-09-04 20:30:29,027 - INFO - Tamaño de los datos para ID 5: 250000
+2024-09-04 20:30:29,061 - INFO - Tamaño de los datos para ID 7: 250000
+2024-09-04 20:30:29,065 - INFO - Promedio después de la normalización para ID 8: 0.50
+2024-09-04 20:30:29,066 - INFO - Tamaño de los datos para ID 6: 250000
+2024-09-04 20:30:29,069 - INFO - Procesando elemento ID: 9 del dispositivo MRI
+2024-09-04 20:30:29,074 - INFO - Procesando elemento ID: 10 del dispositivo RX 1
+2024-09-04 20:30:29,074 - INFO - Tamaño de los datos para ID 8: 250000
+2024-09-04 20:30:29,080 - INFO - Procesando elemento ID: 11 del dispositivo MRI
+2024-09-04 20:30:29,144 - INFO - Procesando elemento ID: 12 del dispositivo MRI
+2024-09-04 20:30:29,167 - INFO - Promedio antes de la normalización para ID 9: 50.11
+2024-09-04 20:30:29,190 - INFO - Promedio antes de la normalización para ID 10: 49.95
+2024-09-04 20:30:29,305 - INFO - Promedio después de la normalización para ID 9: 0.50
+2024-09-04 20:30:29,309 - INFO - Promedio antes de la normalización para ID 12: 50.02
+2024-09-04 20:30:29,316 - INFO - Promedio antes de la normalización para ID 11: 50.03
+2024-09-04 20:30:29,342 - INFO - Tamaño de los datos para ID 9: 250000
+2024-09-04 20:30:29,348 - INFO - Promedio después de la normalización para ID 10: 0.50
+2024-09-04 20:30:29,399 - INFO - Promedio después de la normalización para ID 12: 0.50
+2024-09-04 20:30:29,424 - INFO - Procesando elemento ID: 13 del dispositivo CT SCAN
+2024-09-04 20:30:29,424 - INFO - Promedio después de la normalización para ID 11: 0.50
+2024-09-04 20:30:29,425 - INFO - Tamaño de los datos para ID 10: 250000
+2024-09-04 20:30:29,425 - INFO - Tamaño de los datos para ID 12: 250000
+2024-09-04 20:30:29,451 - INFO - Tamaño de los datos para ID 11: 250000
+2024-09-04 20:30:29,486 - INFO - Promedio antes de la normalización para ID 13: 50.12
+2024-09-04 20:30:29,490 - INFO - Procesando elemento ID: 14 del dispositivo MRI
+2024-09-04 20:30:29,493 - INFO - Procesando elemento ID: 15 del dispositivo RX 1
+2024-09-04 20:30:29,497 - INFO - Procesando elemento ID: 16 del dispositivo MRI
+2024-09-04 20:30:29,521 - INFO - Promedio después de la normalización para ID 13: 0.50
+2024-09-04 20:30:29,640 - INFO - Promedio antes de la normalización para ID 15: 49.98
+2024-09-04 20:30:29,671 - INFO - Tamaño de los datos para ID 13: 250000
+2024-09-04 20:30:29,671 - INFO - Promedio antes de la normalización para ID 14: 50.05
+2024-09-04 20:30:29,676 - INFO - Promedio antes de la normalización para ID 16: 50.06
+2024-09-04 20:30:29,689 - INFO - Procesando elemento ID: 17 del dispositivo RX 1
+2024-09-04 20:30:29,718 - INFO - Promedio después de la normalización para ID 15: 0.50
+2024-09-04 20:30:29,727 - INFO - Promedio después de la normalización para ID 14: 0.50
+2024-09-04 20:30:29,769 - INFO - Promedio después de la normalización para ID 16: 0.50
+2024-09-04 20:30:29,779 - INFO - Tamaño de los datos para ID 15: 250000
+2024-09-04 20:30:29,802 - INFO - Promedio antes de la normalización para ID 17: 49.92
+2024-09-04 20:30:29,803 - INFO - Tamaño de los datos para ID 14: 250000
+2024-09-04 20:30:29,803 - INFO - Tamaño de los datos para ID 16: 250000
+2024-09-04 20:30:29,806 - INFO - Procesando elemento ID: 18 del dispositivo RX 1
+2024-09-04 20:30:29,830 - INFO - Promedio después de la normalización para ID 17: 0.50
+2024-09-04 20:30:29,833 - INFO - Procesando elemento ID: 19 del dispositivo MRI
+2024-09-04 20:30:29,837 - INFO - Procesando elemento ID: 20 del dispositivo MRI
+2024-09-04 20:30:29,871 - INFO - Tamaño de los datos para ID 17: 250000
+2024-09-04 20:30:29,888 - INFO - Promedio antes de la normalización para ID 18: 50.04
+2024-09-04 20:30:29,971 - INFO - Promedio antes de la normalización para ID 19: 49.96
+2024-09-04 20:30:29,994 - INFO - Promedio antes de la normalización para ID 20: 49.98
+2024-09-04 20:30:30,016 - INFO - Promedio después de la normalización para ID 18: 0.50
+2024-09-04 20:30:30,040 - INFO - Promedio después de la normalización para ID 19: 0.50
+2024-09-04 20:30:30,066 - INFO - Promedio después de la normalización para ID 20: 0.50
+2024-09-04 20:30:30,066 - INFO - Tamaño de los datos para ID 18: 250000
+2024-09-04 20:30:30,066 - INFO - Tamaño de los datos para ID 19: 250000
+2024-09-04 20:30:30,072 - INFO - Tamaño de los datos para ID 20: 250000

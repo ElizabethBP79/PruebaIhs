@@ -1,0 +1,8 @@
+2024-09-04 00:02:21,306 - Thread-1 (worker) - Processing element ID: aabbcc1
+2024-09-04 00:02:21,308 - Thread-1 (worker) - ID: aabbcc1 - Average before normalization: 51.13
+2024-09-04 00:02:21,308 - Thread-2 (worker) - Processing element ID: aabbcc2
+2024-09-04 00:02:21,308 - Thread-1 (worker) - ID: aabbcc1 - Average after normalization: 0.53
+2024-09-04 00:02:21,309 - Thread-2 (worker) - ID: aabbcc2 - Average before normalization: 52.70
+2024-09-04 00:02:21,309 - Thread-1 (worker) - ID: aabbcc1 - Data size: 30
+2024-09-04 00:02:21,309 - Thread-2 (worker) - ID: aabbcc2 - Average after normalization: 0.55
+2024-09-04 00:02:21,316 - Thread-2 (worker) - ID: aabbcc2 - Data size: 30

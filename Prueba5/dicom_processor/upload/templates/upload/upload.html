@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Upload DICOM</title>
+</head>
+<body>
+    <h1>Upload DICOM File</h1>
+    <form method="post" enctype="multipart/form-data" action="{% url 'upload_dicom' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,148 @@
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+"GET /upload/ HTTP/1.1" 500 70494
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\eliza\OneDrive\Escritorio\Imexhs\Prueba5A\dicom_processor\upload\views.py", line 33, in upload_dicom
+    return render(request, 'upload.html', {'form': form})
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload.html
+"GET /upload/ HTTP/1.1" 500 81940
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\eliza\OneDrive\Escritorio\Imexhs\Prueba5A\dicom_processor\upload\views.py", line 33, in upload_dicom
+    return render(request, 'upload.html', {'form': form})
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: upload.html
+"GET /upload/ HTTP/1.1" 500 82447
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\eliza\OneDrive\Escritorio\Imexhs\Prueba5A\dicom_processor\upload\views.py", line 24, in upload_dicom
+    dicom_file = form.cleaned_data['dicom_file']
+KeyError: 'dicom_file'
+"POST /upload/ HTTP/1.1" 500 67806
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: el valor nulo en la columna «average_before_normalization» de la relación «upload_medicalimageresult» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, CT SCAN, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x..., null, null, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\eliza\OneDrive\Escritorio\Imexhs\Prueba5A\dicom_processor\upload\views.py", line 27, in upload_dicom
+    new_result.save()
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: el valor nulo en la columna «average_before_normalization» de la relación «upload_medicalimageresult» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (1, CT SCAN, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x..., null, null, null).
+
+"POST /upload/ HTTP/1.1" 500 173249
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: el valor nulo en la columna «average_before_normalization» de la relación «upload_medicalimageresult» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, CT SCAN, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x..., null, null, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\eliza\OneDrive\Escritorio\Imexhs\Prueba5A\dicom_processor\upload\views.py", line 27, in upload_dicom
+    new_result.save()
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\eliza\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: el valor nulo en la columna «average_before_normalization» de la relación «upload_medicalimageresult» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (2, CT SCAN, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x..., null, null, null).
+
+"POST /upload/ HTTP/1.1" 500 173249
